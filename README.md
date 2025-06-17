@@ -38,8 +38,9 @@ A Streamlit-based real-time chatbot that detects and categorizes common sales ob
    ```
 
 4. Run the app:
+```
    streamlit run app.py
-
+```
 📄 File Structure
 ----------------
 - `app.py` – Main Streamlit application
