@@ -29,11 +29,13 @@ A Streamlit-based real-time chatbot that detects and categorizes common sales ob
    pip install -r requirements.txt
 
 3. Create a `.env` file in the root directory with the following:
+   ```
    OPENAI_API_KEY=your_openai_api_key  
    SMTP_EMAIL=your_email_address  
    SMTP_PASSWORD=your_email_password  
    SMTP_SERVER=smtp.gmail.com  
    SMTP_PORT=587
+   ```
 
 4. Run the app:
    streamlit run app.py
